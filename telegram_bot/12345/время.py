@@ -1,5 +1,5 @@
 from telegram import Update, ReplyKeyboardMarkup
-from  import Application, CommandHandler, MessageHandler, filters, CallbackContext, ConversationHandler
+from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext, ConversationHandler
 import logging
 
 # Включаем логирование
